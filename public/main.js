@@ -14,7 +14,7 @@
 
  const addTwoSixSidedDiceRollToList = () => {
   const newRoll = document.createElement('li')
-  newRoll.textContent = Math.ceil(Math.random() * 6)
+  newRoll.textContent = Math.ceil(Math.random() * 6) + " and " + Math.ceil(Math.random() * 6)
   document.querySelector('.two-six-sided-dice-roll-result').appendChild(newRoll)
 } 
 

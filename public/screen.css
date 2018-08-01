@@ -6,4 +6,98 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+
+.header {
+  font-size: 3em;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+}
+.six-sided-dice {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.six-sided-dice-header {
+  font-size: 2em;
+}
+
+.six-sided-roll-dice {
+  font-size: 2em;
+}
+
+.six-sided-dice-roll-result {
+  font-size: 2em;
+  list-style: none;
+}
+
+.two-six-sided-dice {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.two-six-sided-dice-header {
+  font-size: 2em;
+}
+
+.two-six-sided-roll-dice {
+  font-size: 2em;
+}
+
+.two-six-sided-dice-roll-result {
+  font-size: 2em;
+  list-style: none;
+}
+
+.twelve-sided-dice {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.twelve-sided-dice-header {
+  font-size: 2em;
+}
+
+.twelve-sided-roll-dice {
+  font-size: 2em;
+}
+
+.twelve-sided-dice-roll-result {
+  font-size: 2em;
+  list-style: none;
+}
+
+.twenty-sided-dice {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.twenty-sided-dice-header {
+  font-size: 2em;
+}
+
+.twenty-sided-roll-dice {
+  font-size: 2em;
+}
+
+.twenty-sided-dice-roll-result {
+  font-size: 2em;
+  list-style: none;
 }
